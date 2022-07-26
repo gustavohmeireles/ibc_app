@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @animal %>
+
+<div>
+  <%= link_to "Editar animal", edit_animal_path(@animal) %> |
+  <%= link_to "Voltar para 'animais'", animals_path %>
+
+  <%= button_to "Deletar animal", @animal, method: :delete %>
+</div>
