@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#Stacks e deploy
+* Ruby 2.7.1;
+* Rails 7.0.3.1;
+* Puma 5.6.4;
+* Banco de Dados SQLite3;
+* Devise para login;
+* Instruções de deploy:
+    Para inicializar a aplicação, baixe o repositório localmente;
+    Rode 'bundle install' para instalar as gems;
+    Inicialize o servidor com o comando 'rails s';
+    Acesse o endereço local da aplicação e veja seu funcionamento;
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#Objetivo da aplicação
+*Fazer que um usuário logado possa manipular tabelas com dados de animais, com sua criação, raça e idade;
